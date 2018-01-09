@@ -6,8 +6,8 @@ var array = new Array();
 }
 
 function johnLennonFacts(array) {
-  while (array) {
-  console.log(`${array}!!!`);
+  while (array > 0) {
+  console.log(`--${array}!!!`);
   }
   return array;
 }
