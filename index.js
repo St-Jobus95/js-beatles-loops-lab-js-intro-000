@@ -6,8 +6,8 @@ var array = new Array();
 }
 
 function johnLennonFacts(array) {
-var lennon = new Array();
+var new_array;
   while (array > 0)
   console.log(`${--array}!!!`);
-  return lennon
+  return new_array
 }
