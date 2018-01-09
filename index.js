@@ -6,7 +6,8 @@ var array = new Array();
 }
 
 function johnLennonFacts(array) {
+var new_array = [...array, "!!!"];
   while (array > 0)
   console.log(--array);
-  return [...array, "!!!"];
+  return  new_array
 }
