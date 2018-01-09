@@ -9,5 +9,5 @@ function johnLennonFacts(array) {
   while (array > 0) {
   console.log(`${--array}!!!`);
   }
-  return `${--array}!!!`;
+  return array
 }
